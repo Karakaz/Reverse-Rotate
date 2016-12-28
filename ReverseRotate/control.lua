@@ -20,15 +20,12 @@ local function reverseRotate(event)
 
 --		end
 
-	
 	elseif player.selected then
 	
 		local entity = player.selected
 	
 		if entity.rotatable then
-		
 			entity.direction = (entity.direction - 2) % 8
-			
 		end
 	end
 end
